@@ -11,13 +11,13 @@ variable "resource_group_name" {
 }
 
 variable "azure_region" {
-  description = "Region de Azure donde se crearan los recursos. Para Azure for Students se uso chilecentral por disponibilidad."
+  description = "Region de Azure donde se crean los recursos. Para Azure Students se usa chilecentral."
   type        = string
   default     = "chilecentral"
 }
 
 variable "tamano_vm" {
-  description = "Tamano de la maquina virtual Linux. Standard_D2s_v3 fue usado por disponibilidad en Azure for Students."
+  description = "Tamao de la maquina virtual Linux. Standard_D2s_v3 fue usado por Azure Students."
   type        = string
   default     = "Standard_D2s_v3"
 }
@@ -29,7 +29,7 @@ variable "admin_username" {
 }
 
 variable "admin_password" {
-  description = "Contrasena administrador de la VM. No debe subirse a Git."
+  description = "Contrasea administrador de la VM. No sube a Git."
   type        = string
   sensitive   = true
 }

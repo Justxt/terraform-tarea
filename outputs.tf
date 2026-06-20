@@ -9,6 +9,6 @@ output "resource_group_name" {
 }
 
 output "vm_name" {
-  description = "Nombre de la maquina virtual Linux."
+  description = "Nombre de la VM Linux."
   value       = module.linux_vm.vm_name
 }
